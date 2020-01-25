@@ -88,11 +88,11 @@ const cardInfo = (obj) => {
   const userUserName = document.createElement('p');
   const home = document.createElement('p');
   const profile = document.createElement('p');
-  const gHubLinkA = document.createElement('a')
+  const gHubLinkA = document.createElement('a');
   // const gHubLink = document.createElement('href')
-  const followers = document.createElement('p')
+  const followers = document.createElement('p');
   const following = document.createElement('p');
-  const bio = document.createElement('p')
+  const bio = document.createElement('p');
 
   //Tree
   card.appendChild(userPic);
@@ -105,6 +105,7 @@ const cardInfo = (obj) => {
   cardInfo.appendChild(followers);
   cardInfo.appendChild(following);
   cardInfo.appendChild(bio);
+
   profile.appendChild(gHubLinkA)
 
 
